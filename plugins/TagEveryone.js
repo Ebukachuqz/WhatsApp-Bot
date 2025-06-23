@@ -6,7 +6,7 @@ class TagEveryone {
   #trigger;
 
   constructor(config = {}) {
-    this.#membersLimit = config.membersLimit || 100;
+    this.#membersLimit = config.membersLimit || 2000;
     this.#trigger = config.trigger || "all";
   }
 
